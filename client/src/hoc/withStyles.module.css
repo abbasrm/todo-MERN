@@ -1,0 +1,53 @@
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: rgba(255, 255, 255, 0.66) !important;
+    border: 2px solid #fff !important;
+    border-radius: 4px !important;
+}
+@media (min-width: 576px){
+    .container {
+         max-width: 540px;
+     } 
+ }
+
+ 
+@media (min-width: 768px){
+    .container {
+         max-width: 720px;
+    } 
+}
+
+ @media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }  
+}
+ 
+ 
+@media (min-width: 1200px){
+   .container {
+        max-width: 1140px;
+    } 
+}
+
+
+
+
+
+.App-class {
+    text-align: center;
+}
+  
+  

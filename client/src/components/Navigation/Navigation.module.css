@@ -1,0 +1,27 @@
+.nav-item{
+    text-align: center;
+    margin: 2px 3px;
+    border: 3px solid transparent;
+    display: inline-block;
+    background: #333;
+    color: #eee;
+    padding: 4px 12px;
+    transition: all 200ms ease-out;
+}
+.nav-item:first-child{
+    margin-left: 0;
+}
+.nav-item:hover{
+    color: #ddd;
+    text-decoration: none;
+    background: #222;
+    border: 3px solid #000;
+    border-radius: 3px;
+}
+
+.active{
+    color: #ff8844 !important;
+    background: #222;
+    border: 3px solid #000;
+    border-radius: 3px;
+}

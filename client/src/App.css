@@ -1,0 +1,23 @@
+:global input{
+  width: 100% !important;
+}
+:global .custom-d-p, .react-datepicker-wrapper, .react-datepicker__input-container{
+  width: 100% !important;
+}
+body {
+  font-family: 'quicksand';
+  font-weight: lighter;
+  font-size: 13px;
+  background: rgba(92,129,202,1);
+  background: -moz-linear-gradient(left, rgba(92,129,202,1) 0%, rgba(249,140,112,1) 100% );
+  background: -webkit-linear-gradient(left, rgba(92,129,202,1) 0%, rgba(249,140,112,1) 100%
+  );
+}
+
+.react-datepicker-popper {
+  z-index: 3333 !important;
+}
+
+/* .rapper{
+  width: 90%;
+} */

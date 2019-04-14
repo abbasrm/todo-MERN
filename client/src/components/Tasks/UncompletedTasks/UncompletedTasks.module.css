@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.myTable td, .myTable th{
+  text-align: center;
+  width: 20% !important;
+  padding: 8px;
+}
+
+.myTable th{
+  color: #333;
+  font-weight: bold;
+}
+.myTable tbody tr:not(:last-child){
+  border-bottom: 1px solid #ddd;
+  transition: all ease-in-out 200ms;
+}
+.myTable thead tr{
+  border-bottom: 2px solid #bbb;
+}
+
+.myTable tbody tr:hover{
+  background: #efefef;
+}
+
+
+.form-control{
+  width: 100% !important;
+}
+
+.form-inline{
+  justify-content: center;
+}
