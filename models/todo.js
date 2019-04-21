@@ -26,6 +26,10 @@ const todoSchema = new Schema({
   id: {
     type: Number
  },
+ created: {
+   type: Date,
+   default: Date.now
+ }
 });
 
 module.exports = mongoose.model("todo", todoSchema);
